@@ -52,5 +52,6 @@
   <modules>
   	<module>rockmq-demo</module>
     <module>cobar-demo</module>
+    <module>validate-demo</module>
   </modules>
 </project>
