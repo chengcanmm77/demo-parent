@@ -54,5 +54,8 @@
     <module>cobar-demo</module>
     <module>validate-demo</module>
     <module>guava-demo</module>
+    <module>elasticjob-demo</module>
+    <module>dubbo-demo</module>
+    <module>jdk8-demo</module>
   </modules>
 </project>
