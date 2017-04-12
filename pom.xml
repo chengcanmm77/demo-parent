@@ -28,7 +28,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>1.5.2.RELEASE</version>
-</parent>
+ </parent>
 
 <dependencies>
     <dependency>
@@ -57,5 +57,7 @@
     <module>elasticjob-demo</module>
     <module>dubbo-demo</module>
     <module>jdk8-demo</module>
+    <module>log-demo</module>
+    <module>demo-serialization</module>
   </modules>
 </project>
