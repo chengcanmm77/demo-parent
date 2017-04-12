@@ -39,9 +39,9 @@ public class HessianSerializeTest {
 		p.setStuMap(map);
 		
 		
-		byte[] data = HessianUtil.serialize(s1);
+		byte[] data = HessianUtil.serialize(p);
 		System.out.println(data.length);
-		Student p2 = (Student)HessianUtil.deSerialize(data);
+		Person p2 = (Person)HessianUtil.deSerialize(data);
 		
 		System.out.println(p2);
 	}

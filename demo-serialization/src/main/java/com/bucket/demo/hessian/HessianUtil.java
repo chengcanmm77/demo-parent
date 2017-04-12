@@ -5,22 +5,18 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 import com.caucho.hessian.io.Hessian2Input;
-import com.caucho.hessian.io.HessianOutput;
+import com.caucho.hessian.io.Hessian2Output;
 
 public class HessianUtil {
 
 	public static byte[] serialize(Object object) throws IOException{
-	/*	ByteArrayOutputStream bos = new ByteArrayOutputStream();
+		ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		Hessian2Output out = new Hessian2Output(bos);
 		out.writeObject(object);
+		out.flush();
 		byte[] tt = bos.toByteArray();
 		bos.close();
 		return tt;
-		*/
-		  ByteArrayOutputStream os = new ByteArrayOutputStream();
-	        HessianOutput ho = new HessianOutput(os);
-	        ho.writeObject(object);
-	        return os.toByteArray();
 	}
 	
 	public static Object deSerialize(byte[] data) throws IOException{
