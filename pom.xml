@@ -60,5 +60,6 @@
     <module>log-demo</module>
     <module>demo-serialization</module>
     <module>jexl-demo</module>
+    <module>drools-demo</module>
   </modules>
 </project>
