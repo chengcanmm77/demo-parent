@@ -13,6 +13,8 @@
   <packaging>war</packaging>
   <name>drools-demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -20,7 +22,40 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+<dependency>
+    <groupId>org.drools</groupId>
+    <artifactId>drools-core</artifactId>
+    <version>7.0.0.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>org.drools</groupId>
+    <artifactId>drools-compiler</artifactId>
+    <version>7.0.0.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>org.drools</groupId>
+    <artifactId>drools-jsr94</artifactId>
+    <version>6.5.0.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>org.drools</groupId>
+    <artifactId>drools-cdi</artifactId>
+    <version>7.0.0.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>org.drools</groupId>
+    <artifactId>drools-cdi</artifactId>
+    <version>7.0.0.Final</version>
+</dependency>
+
+    
   </dependencies>
+  
+  
   <build>
     <finalName>drools-demo</finalName>
   </build>
