@@ -1,0 +1,8 @@
+myshop/.classpath
+target/
+.settings/
+.externalToolBuilders/
+myshop/.project
+.classpath
+.project
+/myshop.iml

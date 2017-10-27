@@ -72,5 +72,6 @@
     <module>demo-serialization</module>
     <module>jexl-demo</module>
     <module>drools-demo</module>
+    <module>spring-boot-demo</module>
   </modules>
 </project>
