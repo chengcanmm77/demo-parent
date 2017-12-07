@@ -73,5 +73,6 @@
     <module>jexl-demo</module>
     <module>drools-demo</module>
     <module>spring-boot-demo</module>
+    <module>spring-cloud-demo</module>
   </modules>
 </project>

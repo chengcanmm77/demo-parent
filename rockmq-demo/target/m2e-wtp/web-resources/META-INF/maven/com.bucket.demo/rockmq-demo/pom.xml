@@ -20,6 +20,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+<!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
+<dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-client</artifactId>
+    <version>4.1.0-incubating</version>
+</dependency>
+
   </dependencies>
   <build>
     <finalName>rockmq-demo</finalName>

@@ -7,23 +7,21 @@
     <artifactId>demo-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>demo-serialization</artifactId>
+  <groupId>com.bucket.demo</groupId>
+  <artifactId>spring-cloud-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>demo-serialization Maven Webapp</name>
+  <name>spring-cloud-demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-	<dependency>
-	    <groupId>com.caucho</groupId>
-	    <artifactId>hessian</artifactId>
-	    <version>4.0.38</version>
-	</dependency>
-	<dependency>
-	    <groupId>com.caucho</groupId>
-	    <artifactId>hessian</artifactId>
-	    <version>3.1.5</version>
-	</dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <build>
-    <finalName>demo-serialization</finalName>
+    <finalName>spring-cloud-demo</finalName>
   </build>
 </project>
